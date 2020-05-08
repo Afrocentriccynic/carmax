@@ -1,1 +1,187 @@
+.sort {
+    width: 8px;
+}
 
+.heart {
+    width: 25px;
+}
+
+.user {
+    width: 22px;
+    opacity: 0.7;
+}
+
+/* .heart:hover {
+    height: 30px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  } */
+
+header {
+    max-width: 1200px;
+    height: 80px;
+    margin-left: 31.667px;
+    margin-right: 31.667px;
+}  
+
+nav{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #053361;
+}
+
+header a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+.right{
+    float: right;
+
+}
+
+.right img {
+    margin: 0 0 0 5px;
+}
+
+.right a {
+    margin: 0 0 0 9px;
+}
+
+.left{
+    float: left;
+}
+
+.left a {
+    margin: 0 0 0 9px;
+}
+
+.header {
+    font-size:35px;
+    padding-top: 5px;
+    font-weight: bold;
+    color: #053361;
+}
+
+.search-bar{
+    height: 25px;
+    width: 1200px;
+    padding: 10px;
+    background: #f2f2f2;
+    border: black;
+    border-radius: 4px;
+    margin-bottom: 18px;
+}
+
+.search-btn{
+    color: black;
+    padding-top: 6px;
+    float: right;
+    width: 20px;
+    border-radius: 50%;
+}
+
+input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #2a343d;
+    font-size: 16px;
+    width: 500px;
+    background: none;
+    border: none;
+    font-family: roboto;
+    font-size: 18px;
+}
+
+/* Section II begins */
+.sectionii {
+    font: roboto;
+    background: url(./img/woman-in-black-blazer-driving.jpg) no-repeat 0 -50px;
+    height: 400px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.sectionii h3 {
+    color: white;
+    font-size: 76px;
+    /* font-family: 'Jost', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 0 30px #2a343d;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 55px;
+    padding-top: 180px;
+    margin-bottom: 0;
+}
+
+.sectionii button {
+    font-family: 'Jost', sans-serif;
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    color: #053361;
+    border-top: 0;
+    height: 48px;
+    padding: 20px 30px 30px 30px;
+    font-size: .875rem;
+    font-weight: bolder;
+    background-color: #ffd900;
+    border: none;
+    border-radius: 2px;
+    overflow: hidden;
+
+}
+
+.sectioniii {
+    border: 1px solid #ffd900;
+    background-color: #ffd900;
+    height: 320px;
+    padding: 0;
+    margin-top: 0;
+    /* background: url(./img/red-car.png) no-repeat 900px 0px; */
+}
+
+.sectioniii img{
+    padding-top: 90px;
+    width: 520px;
+    height: 180px;
+    overflow: hidden;
+    float: right;
+}
+
+.sectioniii h3{
+    color: #053361;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 70px;
+    font-size: 35px;
+    padding-top: 50px;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    width: 500px;
+    margin-left: 120px;
+}
+
+.sectioniii p{
+    color: #053361;
+    font-family: 'Jost', sans-serif;
+    font-weight: 15px;
+    font-size: 22px;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    width: 500px;
+    margin-left: 120px;
+}
+
+.text {
+    text-decoration: underline;
+}
