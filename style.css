@@ -140,3 +140,47 @@ input{
     border-radius: 2px;
     overflow: hidden;
 }
+
+.sectioniii {
+    border: 1px solid #ffd900;
+    background-color: #ffd900;
+    height: 320px;
+    padding: 0;
+    margin-top: 0;
+    /* background: url(./img/red-car.png) no-repeat 900px 0px; */
+}
+
+.sectioniii img{
+    padding-top: 90px;
+    width: 520px;
+    height: 180px;
+    overflow: hidden;
+    float: right;
+}
+
+.sectioniii h3{
+    color: #053361;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 70px;
+    font-size: 35px;
+    padding-top: 50px;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    width: 500px;
+    margin-left: 120px;
+}
+
+.sectioniii p{
+    color: #053361;
+    font-family: 'Jost', sans-serif;
+    font-weight: 15px;
+    font-size: 22px;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    width: 500px;
+    margin-left: 120px;
+}
+
+.text {
+    text-decoration: underline;
+}
