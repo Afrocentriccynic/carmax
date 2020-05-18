@@ -71,9 +71,19 @@ header ul{
     color: #053361;
 }
 
-.search-bar{
+/* search bar */
+.search {
+    font-size:35px;
+    padding-top: 5px;
+    font-weight: bold;
+    color: #053361;
+    max-width: 1200px;
+    margin-left: 31.667px;
+    margin-right: 31.667px;
     height: 25px;
-    width: 1200px;
+}
+
+#search-bar{
     padding: 10px;
     background: #f2f2f2;
     border: black;
@@ -85,13 +95,13 @@ header ul{
     color: black;
     padding-top: 6px;
     float: right;
-    width: 20px;
+    width: 10px;
     border-radius: 50%;
+    font-size: 15px;
 }
 
 input{
     padding-top: 5px;
-    padding-bottom: 5px;
     color: #2a343d;
     font-size: 16px;
     width: 500px;
@@ -99,6 +109,7 @@ input{
     border: none;
     font-family: roboto;
     font-size: 18px;
+    position: absolute;
 }
 
 /* Section II begins */
