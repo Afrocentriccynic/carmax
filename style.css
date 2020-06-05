@@ -94,38 +94,39 @@ header ul{
     padding: 0;
 }
 
-#search {
+/* #search {
     padding: 10px;
     background: #f2f2f2;
-    /* border: black; */
     border-radius: 6px;
     margin-bottom: 18px;
     color: #053361;
     margin-left: 31.7px;
     margin-right: 31.667px;
     height: 25px;
-}
+} */
 
 .search-btn{
     color: #053361;
-    padding-top: 6px;
-    padding-right: 10px;
-    float: right;
+    padding-top: 15px;
     width: 10px;
     border-radius: 50%;
     font-size: 15px;
+    position: absolute;
+    left: 92%;
 }
 
 input {
-    padding-top: 5px;
-    /* color: #5b5f63; */
-    /* color: #021930; */
-    font-size: 16px;
-    width: 800px;
-    background: none;
-    border: none;
+    padding: 15px 0 15px 15px;
+    margin-left: 56px;
+    font-size: 15px;
+    width: 1122px;
     font-family: 'Raleway', sans-serif;
     font-weight: 500px;
     font-size: 15px;
-    position: absolute;
+    border-radius: 6px;
+    border:  1px solid grey;
+        /* color: #5b5f63; */
+    /* color: #021930; */
+    /* position: absolute; */
+    /* margin-right: 31.667px; */
 }
