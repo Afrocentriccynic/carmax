@@ -93,3 +93,39 @@ header ul{
     margin: 0;
     padding: 0;
 }
+
+#search {
+    padding: 10px;
+    background: #f2f2f2;
+    /* border: black; */
+    border-radius: 6px;
+    margin-bottom: 18px;
+    color: #053361;
+    margin-left: 31.7px;
+    margin-right: 31.667px;
+    height: 25px;
+}
+
+.search-btn{
+    color: #053361;
+    padding-top: 6px;
+    padding-right: 10px;
+    float: right;
+    width: 10px;
+    border-radius: 50%;
+    font-size: 15px;
+}
+
+input {
+    padding-top: 5px;
+    /* color: #5b5f63; */
+    /* color: #021930; */
+    font-size: 16px;
+    width: 800px;
+    background: none;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500px;
+    font-size: 15px;
+    position: absolute;
+}
