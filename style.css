@@ -108,7 +108,6 @@ header ul{
 .search-btn{
     color: #053361;
     padding-top: 15px;
-    width: 10px;
     border-radius: 50%;
     font-size: 15px;
     position: absolute;
@@ -116,10 +115,10 @@ header ul{
 }
 
 input {
-    padding: 15px 0 15px 15px;
+    padding: 15px 8px 15px 7px;
     margin-left: 56px;
     font-size: 15px;
-    width: 1122px;
+    width: 90%;
     font-family: 'Raleway', sans-serif;
     font-weight: 500px;
     font-size: 15px;
