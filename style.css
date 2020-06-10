@@ -93,3 +93,43 @@ header ul{
     margin: 0;
     padding: 0;
 }
+
+/* Section II begins */
+.sectionii {
+    font: roboto;
+    background: url(./img/woman-in-black-blazer-driving.jpg) no-repeat 0 -50px;
+    height: 400px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.sectionii h3 {
+    color: white;
+    font-size: 76px;
+    /* font-family: 'Jost', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 0 0 30px #2a343d;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 55px;
+    padding-top: 180px;
+    margin-bottom: 0;
+}
+
+.sectionii button {
+    font-family: 'Jost', sans-serif;
+    display: block;
+    margin: auto;
+    margin-top: 70px;
+    color: #053361;
+    border-top: 0;
+    height: 48px;
+    padding: 20px 30px 30px 30px;
+    font-size: .875rem;
+    font-weight: bolder;
+    background-color: #ffd900;
+    border: none;
+    border-radius: 2px;
+    overflow: hidden;
+}
