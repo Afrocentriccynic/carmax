@@ -98,8 +98,9 @@ header ul{
 .sectionii {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
-    background: url(./img/woman-in-black-blazer-driving.jpg) no-repeat 0 -50px;
+    background: url(./img/woman-in-black-blazer-driving.jpg) 0 -50px;
     height: 400px;
+    width: 100%;
     margin-bottom: 0;
     padding-bottom: 0;
 }
