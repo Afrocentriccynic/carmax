@@ -96,17 +96,19 @@ header ul{
 
 /* Section II begins */
 .sectionii {
-    font: roboto;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     background: url(./img/woman-in-black-blazer-driving.jpg) no-repeat 0 -50px;
     height: 400px;
     margin-bottom: 0;
     padding-bottom: 0;
 }
-.sectionii h3 {
+.sectionii h1 {
     color: white;
     font-size: 76px;
     /* font-family: 'Jost', sans-serif; */
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-shadow: 0 0 30px #2a343d;
     height: 50px;
     display: flex;
@@ -118,12 +120,12 @@ header ul{
 }
 
 .sectionii button {
-    font-family: 'Jost', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
     display: block;
     margin: auto;
     margin-top: 70px;
     color: #053361;
-    border-top: 0;
     height: 48px;
     padding: 20px 30px 30px 30px;
     font-size: .875rem;
@@ -131,5 +133,4 @@ header ul{
     background-color: #ffd900;
     border: none;
     border-radius: 2px;
-    overflow: hidden;
 }
