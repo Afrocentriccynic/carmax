@@ -1,3 +1,10 @@
+body, html{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
 .sort {
     width: 6px;
     margin-right: 18px;
@@ -139,3 +146,9 @@ header ul{
 .text {
     text-decoration: underline;
 }
+
+@media screen and (max-width:1024px) {  
+    .sectioniii img {
+      display: none;
+    }
+  }
