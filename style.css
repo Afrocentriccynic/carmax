@@ -1,3 +1,9 @@
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 .sort {
     width: 6px;
     margin-right: 18px;
@@ -104,6 +110,10 @@ header ul{
     margin-right: 31.667px;
     height: 25px;
 } */
+
+.search{
+    position: relative;
+}
 
 .search-btn{
     color: #053361;
