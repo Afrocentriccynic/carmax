@@ -1,9 +1,10 @@
-body, html {
+body, html{
+    margin: 0px;
+    padding: 0px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
-    margin: 0;
-    padding: 0;
 }
+
 .sort {
     width: 6px;
     margin-right: 18px;
@@ -143,3 +144,55 @@ input {
     /* color: #021930; */
     /* margin-right: 31.667px; */
 }
+
+.sectioniii {
+    border: 1px solid #ffd900;
+    background-color: #ffd900;
+    height: 320px;
+    /* padding: 0;
+    margin-top: 0; */
+    /* background: url(./img/red-car.png) no-repeat 900px 0px; */
+}
+
+.sectioniii img{
+    padding-top: 90px;
+    width: 520px;
+    height: 180px;
+    overflow: hidden;
+    float: right;
+}
+
+.sectioniii h3{
+    color: #053361;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 70px;
+    font-size: 35px;
+    padding-top: 50px;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    width: 500px;
+    margin-left: 120px;
+}
+
+.sectioniii p{
+    color: #053361;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 15px;
+    font-size: 22px;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    width: 500px;
+    margin-left: 120px;
+}
+
+.text {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1024px) {  
+    .sectioniii img {
+      display: none;
+    }
+  }
