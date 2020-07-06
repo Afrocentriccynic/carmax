@@ -1,3 +1,19 @@
+
+body, html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+
 .sort {
     width: 6px;
     margin-right: 18px;
@@ -94,6 +110,7 @@ header ul{
     padding: 0;
 }
 
+
 /* Section II begins */
 .sectionii {
     font-family: 'Montserrat', sans-serif;
@@ -136,3 +153,100 @@ header ul{
     border: none;
     border-radius: 2px;
 }
+
+
+/* #search {
+    padding: 10px;
+    background: #f2f2f2;
+    border-radius: 6px;
+    margin-bottom: 18px;
+    color: #053361;
+    margin-left: 31.7px;
+    margin-right: 31.667px;
+    height: 25px;
+} */
+
+.search{
+    position: relative;
+}
+
+.search-btn{
+    color: #053361;
+    padding-top: 15px;
+    border-radius: 50%;
+    font-size: 15px;
+    position: absolute;
+    left: 92%;
+    right: 5%;
+    z-index: 10;
+}
+
+input {
+    padding: 15px 8px 15px 7px;
+    margin-left: 56px;
+    font-size: 15px;
+    width: 90%;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500px;
+    font-size: 15px;
+    border-radius: 6px;
+    border:  1px solid grey;
+    position: absolute;
+    left: 0.2%;
+    right: 10%;
+        /* color: #5b5f63; */
+    /* color: #021930; */
+    /* margin-right: 31.667px; */
+}
+
+.sectioniii {
+    border: 1px solid #ffd900;
+    background-color: #ffd900;
+    height: 320px;
+    /* padding: 0;
+    margin-top: 0; */
+    /* background: url(./img/red-car.png) no-repeat 900px 0px; */
+}
+
+.sectioniii img{
+    padding-top: 90px;
+    width: 520px;
+    height: 180px;
+    overflow: hidden;
+    float: right;
+}
+
+.sectioniii h3{
+    color: #053361;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 70px;
+    font-size: 35px;
+    padding-top: 50px;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    width: 500px;
+    margin-left: 120px;
+}
+
+.sectioniii p{
+    color: #053361;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 15px;
+    font-size: 22px;
+    /* border: 2px solid black; */
+    overflow: hidden;
+    width: 500px;
+    margin-left: 120px;
+}
+
+.text {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:1024px) {  
+    .sectioniii img {
+      display: none;
+    }
+  }
