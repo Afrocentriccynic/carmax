@@ -248,3 +248,120 @@ input {
       display: none;
     }
   }
+
+  /* Section V begins */
+.users { 
+    max-width: 1200px;
+    overflow: visible;
+    background-color: white;
+    color: #053361;
+    position: relative;
+}
+
+.users h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin: 4%;
+    margin-bottom: 0%;
+  }
+
+.users h5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 1%;
+    margin-bottom: 4%;
+}
+
+.users img {
+    width: 276.9px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    margin-left: 20px;
+    margin-bottom: 0%;
+}
+
+.del {
+    background-color: #f0f1f2;
+    box-sizing: border-box;
+    margin-left: 20px;
+    width: 276.9px;
+    height: 61px;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.del img {
+    width: 30px;
+    height: 30px;
+    margin-right: 12px;
+}
+
+.js {
+    background-color: #f0f1f2;
+    box-sizing: border-box;
+    margin-left: 20px;
+    width: 276.9px;
+    height: 61px;
+    font-size: 15px;
+    position: absolute;
+    top: 86.5%;
+    left: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.js img {
+    width: 30px;
+    height: 30px; 
+    margin-right: 13px;
+}
+
+.bri {
+    background-color: #f0f1f2;
+    box-sizing: border-box;
+    margin-left: 20px;
+    width: 276.9px;
+    height: 61px;
+    font-size: 15px;
+    position: absolute;
+    top: 86.5%;
+    left: 50.2%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bri img{
+    width: 30px;
+    height: 30px; 
+    margin-right: 13px;
+}
+
+.jaly {
+    background-color: #f0f1f2;
+    box-sizing: border-box;
+    margin-left: 20px;
+    width: 276.9px;
+    height: 61px;
+    font-size: 15px;
+    position: absolute;
+    top: 86.5%;
+    left: 75.3%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.jaly img{
+    width: 30px;
+    height: 30px; 
+}
