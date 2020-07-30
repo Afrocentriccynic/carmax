@@ -247,4 +247,156 @@ input {
     .sectioniii img {
       display: none;
     }
-  }
+}
+
+/* Section IV begins */
+.sectioniv {
+    background-color: #053361;
+    border: 0.5px solid #053361;
+    height: 360px;
+    position: relative;
+}
+
+.sectioniv input {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top: 45%;
+    height: 42px;
+    padding-bottom: 0%;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.title{
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.curved-top1{
+    background-color: #1773cf;
+    line-height: 40px;
+    border: none;
+    border-radius: 0%;
+    width: 150px;
+    position: absolute;
+    top: 40%;
+    left: 4.3%;
+    border: none;
+    border-radius: 0%;
+    border-bottom: solid 1px white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.curved-top-text1{
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+    background: transparent;
+    position: absolute;
+    top: 47%;
+    left: 8%;
+}
+
+.curved-top2{
+    background-color: #1773cf;
+    line-height: 40px;
+    width: 150px;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    border: none;
+    border-radius: 0%;
+    border-bottom: solid 1px white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.curved-top-text2 {
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    position: absolute;
+    top: 47%;
+    left: 23.7%;
+}
+
+.curved-top3{
+    background-color: #1773cf;
+    line-height: 40px;
+    width: 220px;
+    margin-left: 10px;
+    position: absolute;
+    top: 40%;
+    left: 35.55%;
+    border: none;
+    border-radius: 0%;
+    border-bottom: solid 1px white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.curved-top-text3{
+    font-size: 11px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top: 47.8%;
+    left: 39.3%;
+}
+
+.sectioniv .budget {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: white;
+    width: 6.5%;
+    position: absolute;
+    top: 47%;
+    left: 64%;
+    align-items: flex-end;
+}
+
+.money {
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top: 13%;
+    left: 71%;
+}
+
+.link1 {
+    position: absolute;
+    top: 64%;
+    left: 78%;
+    color: white;
+    font-size: 13px;
+}
+
+.sectioniv button {
+    font-size: 15px;
+    display: flex;
+    margin: auto;
+    color: #053361;
+    height: 48px;
+    font-weight: bolder;
+    background-color: #ffd900;
+    border: none;
+    border-radius: 2px;
+    margin-top: 170px;
+    margin-bottom: 0%;
+    padding: 17px 10px 10px 10px;
+}
+
+.link2 {
+    position: absolute;
+    top: 93%;
+    left: 48%;
+    color: white;
+    font-size: 13px;
+}
