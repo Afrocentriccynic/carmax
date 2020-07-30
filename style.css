@@ -279,7 +279,8 @@ input {
 }
 
 .users img {
-    width: 276.9px;
+    min-width: 200px;
+    max-width: 276.9px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     margin-left: 20px;
@@ -290,7 +291,8 @@ input {
     background-color: #f0f1f2;
     box-sizing: border-box;
     margin-left: 20px;
-    width: 276.9px;
+    min-width: 200px;
+    max-width: 276.9px;
     height: 61px;
     font-size: 15px;
     display: flex;
@@ -299,7 +301,8 @@ input {
 }
 
 .del img {
-    width: 30px;
+    min-width: 20px;
+    max-width: 30px;
     height: 30px;
     margin-right: 12px;
 }
@@ -320,7 +323,8 @@ input {
 }
 
 .js img {
-    width: 30px;
+    min-width: 20px;
+    max-width: 30px;
     height: 30px; 
     margin-right: 13px;
 }
@@ -341,7 +345,8 @@ input {
 }
 
 .bri img{
-    width: 30px;
+    min-width: 20px;
+    max-width: 30px;
     height: 30px; 
     margin-right: 13px;
 }
@@ -362,6 +367,39 @@ input {
 }
 
 .jaly img{
-    width: 30px;
+    min-width: 20px;
+    max-width: 30px;
     height: 30px; 
+    margin-right: 13px;
 }
+
+@media screen and (max-width:1024px) {  
+    .users img {
+      width: 200px;
+    }
+
+    .del {
+      width: 200px;  
+    }
+
+    .js {
+        width: 200px; 
+        position: absolute;
+        top: 83.6%;
+        left: 22%;
+    }
+
+    .bri {
+        width: 200px; 
+        position: absolute;
+        top: 83.6%;
+        left: 43.8%;
+    }
+
+    .jaly {
+        width: 200px; 
+        position: absolute;
+        top: 83.6%;
+        left: 65.8%;
+    }
+  }
