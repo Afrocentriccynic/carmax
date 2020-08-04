@@ -400,3 +400,7 @@ input {
     color: white;
     font-size: 13px;
 }
+
+::placeholder {
+    color: white;
+}
