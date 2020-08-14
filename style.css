@@ -378,13 +378,22 @@ input {
     font-size: 13px;
 }
 
-.sectioniv button {
-    font-size: 15px;
-    display: flex;
-    margin: auto;
-    color: #053361;
-    height: 48px;
-
+.section-iv-btn {
+    font-size: 13px;
+    font-weight: 700;
+    vertical-align: middle;
+    border-radius: 2px;
+    align-items: center;
+    letter-spacing: .05em;
+    padding: 16px;
+    text-align: center;
+    color: white;
+    border: none;
+    background-color: #ffd900;;
+    width: 200px;
+    position: absolute;
+    top: 75%;
+    left: 42%;    
   }
 
   /* Section V begins */
@@ -661,7 +670,6 @@ input {
     height: 35px;
     padding: 15px 50px 25px 50px;
     font-size: 15px;
-
     font-weight: bolder;
     background-color: #ffd900;
     border: none;
@@ -679,10 +687,10 @@ input {
     color: white;
     font-size: 13px;
 }
-
-    display: flex;
+    
+    /* display: flex;
     justify-content: center;
     align-content: center;
     margin-bottom: 100px;
-}
+} */
 
